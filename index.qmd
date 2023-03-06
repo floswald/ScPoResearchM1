@@ -1,0 +1,243 @@
+---
+title: "Research Project Presentation"
+subtitle: "ScPo M1 Spatial/Trade/Urban Group"
+author: Florian Oswald
+date: 7 March 2023
+format: 
+    revealjs:
+        theme: _extensions/metropolis-theme/metropolis.scss
+
+---
+
+## Outline
+
+* Who locates where?
+* What the global implications of those choices?
+* Ongoing research projects
+* RA-needs
+
+---
+
+## *Global Implications*: Reims 1950 vs 2016 {fullscreen=true}
+
+
+<iframe class="stretch" data-src="https://remonterletemps.ign.fr/comparer?x=4.023304&y=49.250812&z=13&layer1=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965&layer2=ORTHOIMAGERY.ORTHOPHOTOS&mode=vSlider"></iframe>
+
+
+---
+
+## Ongoing Research
+
+::: {.columns}
+
+::: {.column width=45%}
+<br>
+<br>
+
+
+### Who Locates Where
+
+* Classical *Urban* question
+* Want to apply that in several domains:
+::: 
+
+::: {.column width=45%}
+
+::: {.callout-tip}
+
+# Parents
+*Where* do parents have children?
+:::
+
+::: {.callout-tip}
+
+# Family Networks
+*How* does the family network affect location choices?
+:::
+
+::: {.callout-tip}
+
+# Bus Operators
+*How* do firms locate in space to avoid competition?
+:::
+
+
+::: 
+::: 
+
+---
+
+
+# Fertility, Housing Costs and City Growth
+
+
+---
+
+## Fertility, Housing Costs and City Growth
+
+
+1. There are relatively few children in the center of cities.
+2. Across cities, smaller cities have *more* children.
+3. In general, there is *negative density dependence* of fertility across French Urban Areas.
+
+---
+
+## Density Dependent Fertility
+
+![](/images/fertility-negdens.png)
+
+---
+
+## Housing Consumption
+
+![](/images/fertility-hcons.png)
+
+---
+
+## Why Do We Care?
+
+
+::: {.columns}
+
+<br>
+
+::: {.column width=45%}
+
+#### Housing and Fertility policy may be closer related than previously thought.
+
+* If there is a causal link from house prices to fertility, then...
+* ... zoning 🗺
+* ... commuting 🚋
+* ... labor market 👩🏾‍🎓 👩🏻‍💻 👷🏽‍♂️
+
+are all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍👨‍👧‍👦
+
+
+::: 
+
+::: {.column width=45%}
+
+#### Interesting Tradeoff for a planner: where to incentivize fertility?
+
+* Urban Econs emphasize **agglomeration effects**
+* Higher density 👉 fewer children
+* Where to *locate* parents? (And where other age groups? 👴🏽 👵🏻)
+
+
+::: 
+::: 
+
+
+
+---
+
+## Problem: Joint Decision
+
+<br>
+<br>
+
+Econometrically, that's a mess: People choose location and fertility at the same time. And if not, highly interdependent.
+
+::: {.fragment .fade-in}
+::: {.fragment .semi-fade-out}
+Either need an exogenous shock to location or fertility:
+
+Forced location (choices)?
+
+Policies *randomly* affecting fertility?
+:::
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-red}
+Or a credible model.
+::: 
+::: 
+
+::: {.fragment .fade-in}
+[Check it out!](https://floswald.github.io/project/fertility/)
+::: 
+
+---
+
+
+# Family Networks
+
+
+---
+
+## Family Networks
+
+* A lot of work (urban and labor) has considered *why* people move.
+
+. . .
+
+* The role of **moving costs** is first order. [One Example. 😬](https://floswald.github.io/publication/option-homeownership-2019/)
+
+. . .
+
+* Surprisingly litte is known about the role of an individual's *family network* in this setting.
+
+. . .
+
+* What is the value of having a family member in a city? Like a person-specific amenity.
+
+
+---
+
+## Family Networks: Why Do We Care
+
+1. State of the Art models like [Adda, Dustmann + Görlach](https://academic.oup.com/restud/article/89/6/2841/6527647) still need to model *other unobserved factors affecting location preference* in a random fashion.
+
+. . .
+
+2. It is an important question to know how those models changes as there are fewer *unobserved* things. How much randomness is left in this model once we account for family network?
+
+. . .
+
+3. Policy: Should we distribute vouchers to people considering moving back to their elderly parents?
+
+
+---
+
+# Bus Operator Behaviour In Greater London
+
+
+---
+
+## Red Buses In London are Privately Operated 😲
+
+
+![](/images/ArrivaandMetroline-small.jpeg){.absolute top=100 left=0 height="326" width="435"}
+![](/images/Go-Ahead-small.png){.absolute top=100 left=500}
+<!-- ![](/images/Stagecoach-small.png){.absolute top=200 left=400} -->
+
+
+---
+
+## UK Competition Commission (CC) 2011
+
+[Competition and Markets Authority (previously CC) case](https://www.gov.uk/cma-cases/local-bus-services-market-investigation-cc)
+
+![](/images/CC1.png)
+
+![](/images/CC2.png)
+
+
+
+---
+
+## Bus Routes and Garages {background-image="/images/garages_routes-zoom.png" background-size="contain"}
+
+---
+
+## RA Needs
+
+1. `git`
+2. `julia`: immediate need to port a project from `v0.6` to `v1.9`
+3. `R`: `{data.table}`, `{sf}`
+
+. . .
+
+Basically *everything* on learns in [ScPoProgramming](https://floswald.github.io/ScPoProgramming/) 😉
+
