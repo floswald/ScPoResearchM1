@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html#outline",
+    "href": "index.html#outline",
+    "title": "Research Project Presentation",
+    "section": "Outline",
+    "text": "Outline\n\nWho locates where?\nWhat the global implications of those choices?\nOngoing research projects\nRA-needs"
+  },
+  {
+    "objectID": "index.html#global-implications-reims-1950-vs-2016",
+    "href": "index.html#global-implications-reims-1950-vs-2016",
+    "title": "Research Project Presentation",
+    "section": "Global Implications: Reims 1950 vs 2016",
+    "text": "Global Implications: Reims 1950 vs 2016"
+  },
+  {
+    "objectID": "index.html#ongoing-research",
+    "href": "index.html#ongoing-research",
+    "title": "Research Project Presentation",
+    "section": "Ongoing Research",
+    "text": "Ongoing Research\n\n\n \nWho Locates Where\n\nClassical Urban question\nWant to apply that in several domains:\n\n\n\n\n\n\n\n\nParents\n\n\nWhere do parents have children?\n\n\n\n\n\n\n\n\n\nFamily Networks\n\n\nHow does the family network affect location choices?\n\n\n\n\n\n\n\n\n\nBus Operators\n\n\nHow do firms locate in space to avoid competition?"
+  },
+  {
+    "objectID": "index.html#fertility-housing-costs-and-city-growth-1",
+    "href": "index.html#fertility-housing-costs-and-city-growth-1",
+    "title": "Research Project Presentation",
+    "section": "Fertility, Housing Costs and City Growth",
+    "text": "Fertility, Housing Costs and City Growth\n\nThere are relatively few children in the center of cities.\nAcross cities, smaller cities have more children.\nIn general, there is negative density dependence of fertility across French Urban Areas."
+  },
+  {
+    "objectID": "index.html#density-dependent-fertility",
+    "href": "index.html#density-dependent-fertility",
+    "title": "Research Project Presentation",
+    "section": "Density Dependent Fertility",
+    "text": "Density Dependent Fertility"
+  },
+  {
+    "objectID": "index.html#housing-consumption",
+    "href": "index.html#housing-consumption",
+    "title": "Research Project Presentation",
+    "section": "Housing Consumption",
+    "text": "Housing Consumption"
+  },
+  {
+    "objectID": "index.html#why-do-we-care",
+    "href": "index.html#why-do-we-care",
+    "title": "Research Project Presentation",
+    "section": "Why Do We Care?",
+    "text": "Why Do We Care?\n\n\nHousing and Fertility policy may be closer related than previously thought.\n\nIf there is a causal link from house prices to fertility, then…\n… zoning 🗺\n… commuting 🚋\n… labor market 👩🏾‍🎓 👩🏻‍💻 👷🏽‍♂️\n\nare all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍👨‍👧‍👦\n\nInteresting Tradeoff for a planner: where to incentivize fertility?\n\nUrban Econs emphasize agglomeration effects\nHigher density 👉 fewer children\nWhere to locate parents? (And where other age groups? 👴🏽 👵🏻)"
+  },
+  {
+    "objectID": "index.html#problem-joint-decision",
+    "href": "index.html#problem-joint-decision",
+    "title": "Research Project Presentation",
+    "section": "Problem: Joint Decision",
+    "text": "Problem: Joint Decision\n \nEconometrically, that’s a mess: People choose location and fertility at the same time. And if not, highly interdependent.\n\n\nEither need an exogenous shock to location or fertility:\nForced location (choices)?\nPolicies randomly affecting fertility?\n\n\n\n\nOr a credible model.\n\n\n\nCheck it out!"
+  },
+  {
+    "objectID": "index.html#family-networks-2",
+    "href": "index.html#family-networks-2",
+    "title": "Research Project Presentation",
+    "section": "Family Networks",
+    "text": "Family Networks\n\nA lot of work (urban and labor) has considered why people move.\n\n\n\nThe role of moving costs is first order. One Example. 😬\n\n\n\n\nSurprisingly litte is known about the role of an individual’s family network in this setting.\n\n\n\n\nWhat is the value of having a family member in a city? Like a person-specific amenity."
+  },
+  {
+    "objectID": "index.html#family-networks-why-do-we-care",
+    "href": "index.html#family-networks-why-do-we-care",
+    "title": "Research Project Presentation",
+    "section": "Family Networks: Why Do We Care",
+    "text": "Family Networks: Why Do We Care\n\nState of the Art models like Adda, Dustmann + Görlach still need to model other unobserved factors affecting location preference in a random fashion.\n\n\n\nIt is an important question to know how those models changes as there are fewer unobserved things. How much randomness is left in this model once we account for family network?\n\n\n\n\nPolicy: Should we distribute vouchers to people considering moving back to their elderly parents?"
+  },
+  {
+    "objectID": "index.html#red-buses-in-london-are-privately-operated",
+    "href": "index.html#red-buses-in-london-are-privately-operated",
+    "title": "Research Project Presentation",
+    "section": "Red Buses In London are Privately Operated 😲",
+    "text": "Red Buses In London are Privately Operated 😲"
+  },
+  {
+    "objectID": "index.html#uk-competition-commission-cc-2011",
+    "href": "index.html#uk-competition-commission-cc-2011",
+    "title": "Research Project Presentation",
+    "section": "UK Competition Commission (CC) 2011",
+    "text": "UK Competition Commission (CC) 2011\nCompetition and Markets Authority (previously CC) case"
+  },
+  {
+    "objectID": "index.html#bus-routes-and-garages",
+    "href": "index.html#bus-routes-and-garages",
+    "title": "Research Project Presentation",
+    "section": "Bus Routes and Garages",
+    "text": "Bus Routes and Garages"
+  },
+  {
+    "objectID": "index.html#ra-needs",
+    "href": "index.html#ra-needs",
+    "title": "Research Project Presentation",
+    "section": "RA Needs",
+    "text": "RA Needs\n\ngit\njulia: immediate need to port a project from v0.6 to v1.9\nR: {data.table}, {sf}\n\n\nBasically everything on learns in ScPoProgramming 😉"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
