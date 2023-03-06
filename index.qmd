@@ -17,7 +17,7 @@ format:
 
 ---
 
-## *Global Implications*: Reims 1950 vs 2016 {fullscreen=true}
+## [*Global Implications*: Reims 1950 vs 2016](https://floswald.github.io/publication/landuse/) {fullscreen=true}
 
 
 <iframe class="stretch" data-src="https://remonterletemps.ign.fr/comparer?x=4.023304&y=49.250812&z=13&layer1=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965&layer2=ORTHOIMAGERY.ORTHOPHOTOS&mode=vSlider"></iframe>
