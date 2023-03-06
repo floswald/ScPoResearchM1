@@ -4,7 +4,7 @@
     "href": "index.html#outline",
     "title": "Research Project Presentation",
     "section": "Outline",
-    "text": "Outline\n\nWho locates where?\nWhat the global implications of those choices?\nOngoing research projects\nRA-needs"
+    "text": "Outline\n\nWho locates where?\nWhat are the global implications of those choices?\nOngoing research projects\nRA-needs"
   },
   {
     "objectID": "index.html#global-implications-reims-1950-vs-2016",
@@ -18,7 +18,7 @@
     "href": "index.html#ongoing-research",
     "title": "Research Project Presentation",
     "section": "Ongoing Research",
-    "text": "Ongoing Research\n\n\n \nWho Locates Where\n\nClassical Urban question\nWant to apply that in several domains:\n\n\n\n\n\n\n\n\nParents\n\n\nWhere do parents have children?\n\n\n\n\n\n\n\n\n\nFamily Networks\n\n\nHow does the family network affect location choices?\n\n\n\n\n\n\n\n\n\nBus Operators\n\n\nHow do firms locate in space to avoid competition?"
+    "text": "Ongoing Research\n\n\n \nWho Locates Where\n\nClassical Urban question\nWant to apply that in several domains:\n\n\n\n\n\n\n\n\n1. Parents\n\n\nWhere do parents have children?\n\n\n\n\n\n\n\n\n\n2. Family Networks\n\n\nHow does the family network affect location choices?\n\n\n\n\n\n\n\n\n\n3. Bus Operators\n\n\nHow do firms locate in space to avoid competition?"
   },
   {
     "objectID": "index.html#fertility-housing-costs-and-city-growth-1",
@@ -67,7 +67,7 @@
     "href": "index.html#family-networks-why-do-we-care",
     "title": "Research Project Presentation",
     "section": "Family Networks: Why Do We Care",
-    "text": "Family Networks: Why Do We Care\n\nState of the Art models like Adda, Dustmann + Görlach still need to model other unobserved factors affecting location preference in a random fashion.\n\n\n\nIt is an important question to know how those models changes as there are fewer unobserved things. How much randomness is left in this model once we account for family network?\n\n\n\n\nPolicy: Should we distribute vouchers to people considering moving back to their elderly parents?"
+    "text": "Family Networks: Why Do We Care\n\nState of the Art models like Adda, Dustmann + Görlach still need to model other unobserved factors affecting location preference in a random fashion.\n\n\n\nIt is an important question to know how those models changes as there are fewer unobserved things. How much randomness is left in this model once we account for family network?\n\n\n\n\nPolicy: Should we distribute vouchers to people considering moving back to their elderly parents?\n\n\n\nStatus: secured PSID confidential access, early stage, stylized facts."
   },
   {
     "objectID": "index.html#red-buses-in-london-are-privately-operated",
@@ -95,7 +95,7 @@
     "href": "index.html#ra-needs",
     "title": "Research Project Presentation",
     "section": "RA Needs",
-    "text": "RA Needs\n\ngit\njulia: immediate need to port a project from v0.6 to v1.9\nR: {data.table}, {sf}\n\n\nBasically everything on learns in ScPoProgramming 😉"
+    "text": "RA Needs\n\ngit\njulia: immediate need for help with porting a project from v0.6 to v1.9\nR: {data.table}, {sf}\n\n\nBasically everything one learns in ScPoProgramming 😉"
   },
   {
     "objectID": "about.html",
