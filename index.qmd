@@ -1,18 +1,17 @@
 ---
 title: "Research Project Presentation"
 subtitle: "ScPo M1 Spatial/Trade/Urban Group"
-author: Florian Oswald
-date: 7 March 2023
+author: "Florian Oswald"
+date: "7 March 2023"
 format: 
     revealjs:
         theme: _extensions/metropolis-theme/metropolis.scss
-
 ---
 
 ## Outline
 
-* Who locates where?
-* What the global implications of those choices?
+* *Who locates where?*
+* What are the global implications of those choices?
 * Ongoing research projects
 * RA-needs
 
@@ -45,19 +44,19 @@ format:
 
 ::: {.callout-tip}
 
-# Parents
+# 1. Parents
 *Where* do parents have children?
 :::
 
 ::: {.callout-tip}
 
-# Family Networks
+# 2. Family Networks
 *How* does the family network affect location choices?
 :::
 
 ::: {.callout-tip}
 
-# Bus Operators
+# 3. Bus Operators
 *How* do firms locate in space to avoid competition?
 :::
 
@@ -68,7 +67,8 @@ format:
 ---
 
 
-# Fertility, Housing Costs and City Growth
+# 1. Fertility, Housing Costs and City Growth
+
 
 
 ---
@@ -161,7 +161,7 @@ Or a credible model.
 ---
 
 
-# Family Networks
+# 2. Family Networks
 
 
 ---
@@ -197,10 +197,14 @@ Or a credible model.
 
 3. Policy: Should we distribute vouchers to people considering moving back to their elderly parents?
 
+. . .
+
+Status: secured PSID confidential access, early stage, stylized facts.
+
 
 ---
 
-# Bus Operator Behaviour In Greater London
+# 3. Bus Operator Behaviour In Greater London
 
 
 ---
@@ -234,10 +238,10 @@ Or a credible model.
 ## RA Needs
 
 1. `git`
-2. `julia`: immediate need to port a project from `v0.6` to `v1.9`
+2. `julia`: immediate need for help with porting [a project](https://floswald.github.io/publication/bankruptcy-2019/) from `v0.6` to `v1.9`
 3. `R`: `{data.table}`, `{sf}`
 
 . . .
 
-Basically *everything* on learns in [ScPoProgramming](https://floswald.github.io/ScPoProgramming/) 😉
+Basically *everything* one learns in [ScPoProgramming](https://floswald.github.io/ScPoProgramming/) 😉
 
