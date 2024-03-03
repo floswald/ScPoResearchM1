@@ -1,11 +1,22 @@
 ---
-title: "Research Project Presentation"
-subtitle: "ScPo M1 Spatial/Trade/Urban Group"
-author: "Florian Oswald"
-date: "7 March 2023"
+title: ScPo M1 Research Project Presentation
 format: 
-    revealjs:
-        theme: _extensions/metropolis-theme/metropolis.scss
+  revealjs:
+    theme: _extensions/grantmcdermott/clean/clean.scss
+    chalkboard: false
+    footer: "[Research Presentation M1 ScPo](https://floswald.github.io/ScPoResearchM1/)"
+    incremental: false
+    code-line-numbers: false
+    highlight-style: github
+    slide-number: true
+author: 
+  - name: Florian Oswald
+    orcid: 0000-0001-7737-2038
+    email: florian.oswald@sciencespo.fr
+    affiliations: SciencesPo Paris
+subtitle: "ScPo M1 Spatial/Trade/Urban Group"
+date: last-modified
+date-format: "D MMMM, YYYY"
 ---
 
 ## Outline
@@ -67,7 +78,7 @@ format:
 ---
 
 
-# 1. Fertility, Housing Costs and City Growth
+# 1. Fertility, Housing Costs and City Growth {background-color="#40666e"}
 
 
 
@@ -116,6 +127,8 @@ are all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍
 ::: 
 
 ::: {.column width=45%}
+::: {.fragment}
+
 
 #### Interesting Tradeoff for a planner: where to incentivize fertility?
 
@@ -124,6 +137,7 @@ are all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍
 * Where to *locate* parents? (And where other age groups? 👴🏽 👵🏻)
 
 
+::: 
 ::: 
 ::: 
 
@@ -138,33 +152,27 @@ are all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍
 
 Econometrically, that's a mess: People choose location and fertility at the same time. And if not, highly interdependent.
 
-::: {.fragment .fade-in}
-::: {.fragment .semi-fade-out}
-Either need an exogenous shock to location or fertility:
+::: {.fragment}
+::: {.incremental}
+* Either need an exogenous shock to location or fertility:
 
-Forced location (choices)?
+* Forced location (choices)?
 
-Policies *randomly* affecting fertility?
+* Policies *randomly* affecting fertility?
 :::
 :::
 
-::: {.fragment .fade-in}
-::: {.fragment .highlight-red}
+::: {.fragment}
 Or a credible model.
 ::: 
-::: 
 
-::: {.fragment .fade-in}
+::: {.fragment}
 [Check it out!](https://floswald.github.io/project/fertility/)
 ::: 
 
----
 
+# Family Networks {background-color="#40666e"}
 
-# 2. Family Networks
-
-
----
 
 ## Family Networks
 
@@ -202,9 +210,8 @@ Or a credible model.
 Status: secured PSID confidential access, early stage, stylized facts.
 
 
----
 
-# 3. Bus Operator Behaviour In Greater London
+# 3. Bus Operator Behaviour In Greater London {background-color="#40666e"}
 
 
 ---
