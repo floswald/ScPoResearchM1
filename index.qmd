@@ -75,8 +75,6 @@ date-format: "D MMMM, YYYY"
 ::: 
 ::: 
 
----
-
 
 # 1. Fertility, Housing Costs and City Growth {background-color="#40666e"}
 
@@ -109,8 +107,6 @@ date-format: "D MMMM, YYYY"
 
 
 ::: {.columns}
-
-<br>
 
 ::: {.column width=45%}
 
@@ -147,12 +143,11 @@ are all relevant for 👨‍👩‍👧‍👧 👩‍👩‍👦‍👦 👨‍
 
 ## Problem: Joint Decision
 
-<br>
-<br>
+
 
 Econometrically, that's a mess: People choose location and fertility at the same time. And if not, highly interdependent.
 
-::: {.fragment}
+
 ::: {.incremental}
 * Either need an exogenous shock to location or fertility:
 
@@ -160,7 +155,7 @@ Econometrically, that's a mess: People choose location and fertility at the same
 
 * Policies *randomly* affecting fertility?
 :::
-:::
+
 
 ::: {.fragment}
 Or a credible model.
@@ -169,6 +164,13 @@ Or a credible model.
 ::: {.fragment}
 [Check it out!](https://floswald.github.io/project/fertility/)
 ::: 
+
+## Fertility Model Simulations
+
+
+![](/images/fertility-overview.png){height=250}
+
+![](/images/fertility-popgrowth_center.png){height=250}
 
 
 # Family Networks {background-color="#40666e"}
@@ -199,7 +201,7 @@ Or a credible model.
 
 . . .
 
-2. It is an important question to know how those models changes as there are fewer *unobserved* things. How much randomness is left in this model once we account for family network?
+2. How much randomness is left in this model once we account for family network?
 
 . . .
 
@@ -207,7 +209,11 @@ Or a credible model.
 
 . . .
 
-Status: secured PSID confidential access, early stage, stylized facts.
+Status: early stage, stylized facts, model that runs, lots of parallel computation, threading and multicore. 
+
+. . .
+
+Not sure it's the right model. 
 
 
 
@@ -236,19 +242,115 @@ Status: secured PSID confidential access, early stage, stylized facts.
 
 
 
----
+
 
 ## Bus Routes and Garages {background-image="/images/garages_routes-zoom.png" background-size="contain"}
 
----
+
+## Why Does Garage Location Matter?
+
+::: {.columns}
+
+::: {.column width=70%}
+
+![](images/isochronesA.png)
+:::
+
+::: {.column width=25%}
+
+:::
+:::
+## Why Does Garage Location Matter?
+
+::: {.columns}
+
+::: {.column width=70%}
+
+![](images/isochronesAC.png)
+:::
+
+::: {.column width=25%}
+:::
+:::
+
+![](images/isochronesAC.png)
+
+## Why Does Garage Location Matter?
+
+::: {.columns}
+
+::: {.column width=70%}
+
+![](images/isochronesBE.png)
+:::
+
+::: {.column width=25%}
+
+::: {.fragment}
+
+* Location determines competitiveness in bidding for routes.
+* Own and Competitor's garages!
+* How come?
+
+:::
+
+
+:::
+:::
+
+
+## Dead Miles
+
+
+::: {.columns}
+
+::: {.column width=50%}
+
+![](images/not-in-service.png)
+
+:::
+::: {.column width=48%}
+
+* We find: 13% of London bus drive times are dead
+
+* Empirically relevant for bidding behaviour.
+
+:::
+:::
+
+## What about a central Dispatcher?
+
+![](images/buses-difference.png){.absolute top=50 left=-50 height="600" width="800"}
+
+::: {.columns}
+
+::: {.column width=70%}
+
+
+
+:::
+::: {.column width=28%}
+
+* Central planner who decides who has to park bus where.
+* Observing all operational constraints.
+* Reduces dead miles by 14%.
+
+:::
+:::
+
+
 
 ## RA Needs
 
-1. `git`
-2. `julia`: immediate need for help with porting [a project](https://floswald.github.io/publication/bankruptcy-2019/) from `v0.6` to `v1.9`
+1. `git` and `github`
+2. `julia`
 3. `R`: `{data.table}`, `{sf}`
 
 . . .
 
+`+`
+
 Basically *everything* one learns in [ScPoProgramming](https://floswald.github.io/ScPoProgramming/) 😉
 
+
+# End {background-color="#40666e"}
